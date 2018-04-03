@@ -1,12 +1,11 @@
 <template>
   <mu-appbar :title="title_">
       <mu-icon-button @click="back" icon="menu" slot="left"/>
-       
     </mu-appbar>
 </template>
 <script>
 export default {
-  name: 'head',
+  name: 'i-head',
   props: {
     title: {
       type: String,

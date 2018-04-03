@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import HelloWorld from '@/views/readme/readme.vue'
-import index from '@/components/Head.vue'
+import index from '@/components/iHead.vue'
 Vue.use(Router)
 
 var router = new Router({
@@ -15,7 +15,7 @@ var router = new Router({
       component: index
     },
     {
-      path: '/hellow',
+      path: '/',
       name: 'HelloWorld',
       meta: {
         title: 'Hello'
