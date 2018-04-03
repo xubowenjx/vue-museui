@@ -55,7 +55,7 @@ module.exports = {
     // Paths
     assetsRoot: path.resolve(__dirname, '../docs'),
     assetsSubDirectory: 'static',
-    assetsPublicPath: 'https://xubowenjx.github.io/vue-museui/',
+    assetsPublicPath: 'http://www.xubowen.top/vue-museui/',
 
     /**
      * Source Maps
